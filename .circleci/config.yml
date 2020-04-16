@@ -21,6 +21,6 @@ workflows:
   buid_and_test: # this is the name of our workflow
     jobs: # and here we list the jobs we are going to run.
       - build
-      - test
+      - test:
         requires:
           - build
