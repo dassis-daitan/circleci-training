@@ -22,3 +22,5 @@ workflows:
     jobs: # and here we list the jobs we are going to run.
       - build
       - test
+        requires:
+          - build
